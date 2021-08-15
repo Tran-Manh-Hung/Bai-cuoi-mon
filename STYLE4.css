@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0; }
+.clear{clear:both;}
+* {
+	font-family: 'Press Start 2P', Arial, cursive;
+   }
+
+body div{
+	margin-bottom: 10px;
+}
+
+footer{
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin:auto;
+}
+
+#wrapper{
+	width: 100%;
+	background-color: black;
+}
+
+.containerIMG{
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.containerGif{
+	width: 100%;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.trash{
+	height: 100px;
+	background: #D3D3D3;
+	margin-bottom: 20px;
+}
+	
+.header{
+	width: 100%;
+	height:100px;
+	position: fixed;
+	background: #212121;
+}
+
+.logo{
+	width: 20%;
+	background-image: url('IMG/Logo.jpg');
+	background-repeat: no-repeat;
+    background-size: contain;
+	height: 100px;
+	float: left;
+}
+
+.footerLogo{
+	width: 20%;
+	background-image: url('IMG/FooterLogo.png');
+	background-repeat: no-repeat;
+    background-size: contain;
+	height: 150px;
+	float: left;
+}
+
+.footerUL{
+	margin: 3% 3%;
+	float: right;
+	list-style-type: none;
+	display: block;
+}
+
+.footerUL li {
+	float: left;
+}
+  
+.footerUL  li a {
+	font-size: 15px;
+	display: block;
+	color: white;
+	padding: 25px 16px;
+	text-decoration: none;
+  }
+  
+.footerUL  li a:hover {
+	background-color: #898989;
+}
+
+.banner{
+	margin: 5px 0px;
+	min-width: 500px;
+	width: 80%;
+	height: 80px;
+}
+
+.login{
+
+}
+
+.loginUL{
+	margin: 40px 20px;
+	float: right;
+}
+
+.loginUL li {
+	list-style-type: none;
+	float: left;
+}
+  
+.loginUL  li a {
+	margin: 20px 20px;
+	font-size: 13px;
+	color: white;
+	text-decoration: none;
+}
+  
+.loginUL  li a:hover {
+	background-color: #898989;
+}
+
+.center {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+  }
+
+.nav{
+	width: 100%;
+/*	background: #D3D3D3*/;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+.nav ul {
+  list-style-type: none;
+  background-color: #333;
+}
+
+.nav li {
+	float: left;
+}
+  
+.nav  li a {
+	font-size: 18px;
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+.nav  li a:hover {
+	background-color: #898989;
+  }
+  
+.active {
+	background-color: gold;
+}
+
+.main{
+	height: 1500px;
+	width: 100%;
+	margin: 0 auto;
+/*	background: #477C53;*/
+}
+
+.right{
+	width: 30%;
+	background: #D3D3D3;
+	height: 100%;
+	float: right;
+}
+
+.footer{
+	margin: auto;
+    background: #212121;
+    height:150px;
+}
+
+
+.footer h3{
+    text-align: center;
+    line-height: 80px
+}
+
+.mainDiv1{
+	width: 100%;
+	height: 350px;
+	background-color: #313131;
+	margin:0 auto;
+}
+
+.mainDivImg1{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.mainDiv2{
+	width: 100%;
+	height: 300px;
+	margin: 50px auto;
+}
+.mainDivImg11{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg11 img{
+	width: 90%;
+	height: 220px;
+	margin-top: 39px;	
+}
+.mainDivImg12 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg12 img{
+	margin: 0 125px;
+	width: 40%;
+	height: 210px;
+	margin-top: 39px;	
+}
+.mainDivImg13 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg13 img{
+	width: 100%;
+	height: 240px;
+	margin-top: 39px;	
+}
+
+.mainDivImg14 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg14 img{
+	width: 75%;
+	height: 200px;
+	margin-top: 39px;	
+}
+
+.mainDiv3{
+	width: 100%;
+	height: 300px;
+}
+.mainDivImg31{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg31 img{
+	width: 100%;
+	height: 300px;
+}
+.mainDivImg32 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg32 img{
+	width: 100%;
+	height: 300px;
+}
+.mainDivImg33 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg33 img{
+	width: 100%;
+	height: 300px;
+}
+
+.mainDivImg34 {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.mainDivImg34 img{
+	width: 100%;
+	height: 300px;
+}
+
+.Season1 h{
+	text-align: center;
+	color:gold; 
+	width: 100%;
+	margin: 0 auto;
+	font-size: large;
+}
+
+.mainDiv4{
+	width: 100%;
+	height: 350px;
+}
+
+.mainDiv4 p{
+	margin: 0px 20px;
+	letter-spacing: 2px;
+	line-height: 18px;;
+}
+
+.mainDivImg41{
+	width: 500px;
+	height: 400px;
+	float: right;
+	margin: -330px 121px;
+}
+
+.mainDivTxt41{
+	width: 60%;
+	color:white;
+	font-size: 10px;
+}
+
+.mainDivImg41 img{
+	width: 100%;
+	height: 100%;
+}
